@@ -1,0 +1,92 @@
+body{
+    /*background-color: ##E9EBEB;*/
+    background-color: #FAFAFA;
+    font-family: "Arial Nova Light";
+    margin: 0;
+}
+
+.sick {
+    background:url("img/pexels-photo-459225.jpeg")  no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sick h1{
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #F9F3F4;
+    font-size: 300px;
+}
+
+
+main {
+    background-color: #E9EBEB;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+}
+
+.bar {
+    background-color: #E8E8E8;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    border-bottom: 3px solid black;
+
+}
+
+.bar h2{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding-right: 200px;
+}
+
+nav a:before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #444;
+    width: 0%;
+
+    transition: all ease-in-out 500ms;
+}
+
+nav a:hover:before {
+    width: 100%;
+}
+
+nav a:hover{
+    color: darkslategrey;
+}
+.front h1 {
+    font-family: arial bold;
+    font-size: 180%;
+    text-align: center;
+    margin: 0 auto;
+}
+
